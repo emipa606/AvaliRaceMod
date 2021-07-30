@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <!-- Core -->
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedAvaliProsthesis</defName>
+    <label>Unfinished Avali prosthesis</label>
+    <graphicData>
+      <texPath>Things/Items/Prosthesis/UnfinishedAvaliProsthesis</texPath>
+    </graphicData>
+  </ThingDef>
+  <RecipeDef Abstract="True" Name="RecipeAvaliProsthesis">
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <unfinishedThingDef>UnfinishedAvaliProsthesis</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <workAmount>2000</workAmount>
+    <recipeUsers>
+      <li>AvaliNanolathe</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- Ears -->
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateClothAvaliEar</defName>
+    <label>Craft Cloth Avali Ear</label>
+    <description>Crafts a Cloth Avali Ear.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <researchPrerequisite>AvaliWorkbenches</researchPrerequisite>
+    <products>
+      <ClothAvaliEar>1</ClothAvaliEar>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Textiles</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Textiles</li>
+      </categories>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateCyberneticAvaliEar</defName>
+    <label>Craft Cybernetic Avali Ear</label>
+    <description>Crafts a Cybernetic Avali Ear.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliCybernetics</researchPrerequisite>
+    <products>
+      <CyberneticAvaliEar>1</CyberneticAvaliEar>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateBionicAvaliEar</defName>
+    <label>Craft Bionic Avali Ear</label>
+    <description>Crafts a Bionic Avali Ear.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliBionics</researchPrerequisite>
+    <products>
+      <BionicAvaliEar>1</BionicAvaliEar>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentSpacer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <!-- Tails -->
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateClothAvaliTail</defName>
+    <label>Craft Cloth Avali Tail</label>
+    <description>Crafts a Cloth Avali Tail.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <researchPrerequisite>AvaliWorkbenches</researchPrerequisite>
+    <products>
+      <ClothAvaliTail>1</ClothAvaliTail>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Textiles</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Textiles</li>
+      </categories>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateCyberneticAvaliTail</defName>
+    <label>Craft Cybernetic Avali Tail</label>
+    <description>Crafts a Cybernetic Avali Tail.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliCybernetics</researchPrerequisite>
+    <products>
+      <CyberneticAvaliTail>1</CyberneticAvaliTail>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateBionicAvaliTail</defName>
+    <label>Craft Bionic Avali Tail</label>
+    <description>Crafts a Bionic Avali Tail.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliBionics</researchPrerequisite>
+    <products>
+      <BionicAvaliTail>1</BionicAvaliTail>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentSpacer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <!-- Legs -->
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateWoodenAvaliLeg</defName>
+    <label>Craft Wooden Avali Leg</label>
+    <description>Crafts a Wooden Avali Leg.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+    <researchPrerequisite>AvaliWorkbenches</researchPrerequisite>
+    <products>
+      <WoodenAvaliLeg>1</WoodenAvaliLeg>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateCyberneticAvaliLeg</defName>
+    <label>Craft Cybernetic Avali Leg</label>
+    <description>Crafts a Cybernetic Avali Leg.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliCybernetics</researchPrerequisite>
+    <products>
+      <CyberneticAvaliLeg>1</CyberneticAvaliLeg>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateBionicAvaliLeg</defName>
+    <label>Craft Bionic Avali Leg</label>
+    <description>Crafts a Bionic Avali Leg.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliBionics</researchPrerequisite>
+    <products>
+      <BionicAvaliLeg>1</BionicAvaliLeg>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentSpacer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <!-- Arms -->
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateMetalAvaliArm</defName>
+    <label>Craft Metal Avali Arm</label>
+    <description>Crafts a Metal Avali Arm.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliWorkbenches</researchPrerequisite>
+    <products>
+      <MetalAvaliArm>1</MetalAvaliArm>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateCyberneticAvaliArm</defName>
+    <label>Craft Cybernetic Avali Arm</label>
+    <description>Crafts a Cybernetic Avali Arm.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliCybernetics</researchPrerequisite>
+    <products>
+      <CyberneticAvaliArm>1</CyberneticAvaliArm>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateBionicAvaliArm</defName>
+    <label>Craft Bionic Avali Arm</label>
+    <description>Crafts a Bionic Avali Arm.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliBionics</researchPrerequisite>
+    <products>
+      <BionicAvaliArm>1</BionicAvaliArm>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentSpacer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

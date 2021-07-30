@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="BaseAvaliPawnKind">
+    <race>Alien_Avali</race>
+    <combatPower>40</combatPower>
+    <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BaseAvaliPawnKind">
+    <defName>Avali</defName>
+    <label>colonist</label>
+    <defaultFactionType>AvaliPlayerColony</defaultFactionType>
+    <backstoryCategories>
+      <li>AvaliBackstory</li>
+    </backstoryCategories>
+    <apparelTags>
+      <li>Avali</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+</Defs>

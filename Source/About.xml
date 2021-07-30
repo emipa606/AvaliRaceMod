@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Avali Race Mod - 1.6.4</name>
+  <author>Jaffer Roshak</author>
+  <url>
+  </url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <packageId>Jaffer.Avali</packageId>
+  <description>The cutest predators this side of the universe rift.  The Avali, are nomadic pack hunters from an iceball world far outside the goldilocks zone of their local star. As such, they evolved with more of a focus on sound than eyesight allowing them to evolve to have 4 very sensitive ears.
+Now updated for 1.2 release.</description>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadBefore>
+  </loadBefore>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+  </loadAfter>
+  <incompatibleWith>
+  </incompatibleWith>
+</ModMetaData>

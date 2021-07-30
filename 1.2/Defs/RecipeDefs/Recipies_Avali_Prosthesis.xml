@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <!-- Core -->
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedAvaliProsthesis</defName>
+    <label>Unfinished Avali prosthesis</label>
+    <graphicData>
+      <texPath>Things/Items/Prosthesis/UnfinishedAvaliProsthesis</texPath>
+    </graphicData>
+  </ThingDef>
+  <RecipeDef Abstract="True" Name="RecipeAvaliProsthesis">
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <unfinishedThingDef>UnfinishedAvaliProsthesis</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <workAmount>2000</workAmount>
+  </RecipeDef>
+  <!-- Ears -->
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateClothAvaliEar</defName>
+    <label>Craft Cloth Avali Ear</label>
+    <description>Crafts a Cloth Avali Ear.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <researchPrerequisite>AvaliWorkbenches</researchPrerequisite>
+    <products>
+      <ClothAvaliEar>1</ClothAvaliEar>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateCyberneticAvaliEar</defName>
+    <label>Craft Cybernetic Avali Ear</label>
+    <description>Crafts a Cybernetic Avali Ear.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliCybernetics</researchPrerequisite>
+    <products>
+      <CyberneticAvaliEar>1</CyberneticAvaliEar>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateBionicAvaliEar</defName>
+    <label>Craft Bionic Avali Ear</label>
+    <description>Crafts a Bionic Avali Ear.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliBionics</researchPrerequisite>
+    <products>
+      <BionicAvaliEar>1</BionicAvaliEar>
+    </products>
+  </RecipeDef>
+  <!-- Tails -->
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateClothAvaliTail</defName>
+    <label>Craft Cloth Avali Tail</label>
+    <description>Crafts a Cloth Avali Tail.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <researchPrerequisite>AvaliWorkbenches</researchPrerequisite>
+    <products>
+      <ClothAvaliTail>1</ClothAvaliTail>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateCyberneticAvaliTail</defName>
+    <label>Craft Cybernetic Avali Tail</label>
+    <description>Crafts a Cybernetic Avali Tail.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliCybernetics</researchPrerequisite>
+    <products>
+      <CyberneticAvaliTail>1</CyberneticAvaliTail>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateBionicAvaliTail</defName>
+    <label>Craft Bionic Avali Tail</label>
+    <description>Crafts a Bionic Avali Tail.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliBionics</researchPrerequisite>
+    <products>
+      <BionicAvaliTail>1</BionicAvaliTail>
+    </products>
+  </RecipeDef>
+  <!-- Legs -->
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateWoodenAvaliLeg</defName>
+    <label>Craft Wooden Avali Leg</label>
+    <description>Crafts a Wooden Avali Leg.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+    <researchPrerequisite>AvaliWorkbenches</researchPrerequisite>
+    <products>
+      <WoodenAvaliLeg>1</WoodenAvaliLeg>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateCyberneticAvaliLeg</defName>
+    <label>Craft Cybernetic Avali Leg</label>
+    <description>Crafts a Cybernetic Avali Leg.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliCybernetics</researchPrerequisite>
+    <products>
+      <CyberneticAvaliLeg>1</CyberneticAvaliLeg>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateBionicAvaliLeg</defName>
+    <label>Craft Bionic Avali Leg</label>
+    <description>Crafts a Bionic Avali Leg.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliBionics</researchPrerequisite>
+    <products>
+      <BionicAvaliLeg>1</BionicAvaliLeg>
+    </products>
+  </RecipeDef>
+  <!-- Arms -->
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateMetalAvaliArm</defName>
+    <label>Craft Metal Avali Arm</label>
+    <description>Crafts a Metal Avali Arm.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliWorkbenches</researchPrerequisite>
+    <products>
+      <MetalAvaliArm>1</MetalAvaliArm>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateCyberneticAvaliArm</defName>
+    <label>Craft Cybernetic Avali Arm</label>
+    <description>Crafts a Cybernetic Avali Arm.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliCybernetics</researchPrerequisite>
+    <products>
+      <CyberneticAvaliArm>1</CyberneticAvaliArm>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeAvaliProsthesis">
+    <defName>CreateBionicAvaliArm</defName>
+    <label>Craft Bionic Avali Arm</label>
+    <description>Crafts a Bionic Avali Arm.</description>
+    <jobString>Crafting Prosthesis.</jobString>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>AvaliBionics</researchPrerequisite>
+    <products>
+      <BionicAvaliArm>1</BionicAvaliArm>
+    </products>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ===== Bases ===== -->
+  <ThingDef Name="AV_BaseMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Industrial</techLevel>
+    <smeltable>true</smeltable>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>AvaliWeaponWorkbench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    </recipeMaker>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+  <ThingDef Name="AV_BaseMeleeWeapon_Sharp" ParentName="AV_BaseMeleeWeapon" Abstract="True">
+    <recipeMaker>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <disallowedThingDefs>
+          <li>Silver</li>
+          <li>Gold</li>
+          <li>WoodLog</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef Name="AV_BaseMeleeWeapon_Sharp_Quality" Abstract="True" ParentName="AV_BaseMeleeWeapon_Sharp">
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- ===== Avali Dagger ===== -->
+  <ThingDef ParentName="AV_BaseMeleeWeapon_Sharp_Quality">
+    <defName>Avali_Dagger</defName>
+    <label>Avali Dagger</label>
+    <techLevel>Industrial</techLevel>
+    <description>One the oldest Avali tools, the knife is both an everyday tool and a deadly weapon.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Dagger</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>20</costStuffCount>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.5</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.25</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.25</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>AvaliWorkbenches</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>AvaliMelee</li>
+    </weaponTags>
+  </ThingDef>
+  <!-- ===== Avali Sword ===== -->
+  <ThingDef ParentName="AV_BaseMeleeWeapon_Sharp_Quality">
+    <defName>Avali_Sword</defName>
+    <label>Avali Sword</label>
+    <techLevel>Industrial</techLevel>
+    <description>Advanced technology causes dulled sections of the blade to be ejected and replaced with newly grown sharp sections.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Sword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>30</costStuffCount>
+    <statBases>
+      <WorkToMake>2000</WorkToMake>
+      <Mass>2.5</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>AvaliWeaponsCombat</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>AvaliMelee</li>
+    </weaponTags>
+  </ThingDef>
+  <!-- ===== Avali Spear ===== -->
+  <ThingDef ParentName="AV_BaseMeleeWeapon_Sharp_Quality">
+    <defName>Avali_Spear</defName>
+    <label>Avali Spear</label>
+    <techLevel>Industrial</techLevel>
+    <description>A modern take on the ancient Avali spear design.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Spear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>4.5</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>48</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>AvaliWeaponsCombat</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>AvaliMelee</li>
+    </weaponTags>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,1989 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- ===== Child Stories ===== -->
+<!-- = Schools = -->
+<AlienRace.BackstoryDef>
+	<defName>AvaliChildShooting</defName>
+	<title>Officer Academy</title>
+	<titleShort>OfficerAcademy</titleShort>
+	<baseDescription>[PAWN_nameDef] attended an Illuminate academy for Military Officer Training.  Here [PAWN_pronoun] learned how to be a field officer in the Illuminate Military.</baseDescription>
+	
+	<slot>Childhood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliChildMelee</defName>
+	<title>Soldier School</title>
+	<titleShort>SoldierSchool</titleShort>
+	<baseDescription>[PAWN_nameDef] attended an Illuminate school for Military soldiers.  Here [PAWN_pronoun] learned how to fight and survive as a soldier on the ground.</baseDescription>
+	
+	<slot>Childhood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Construction</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>-2</amount>
+		</li>
+	</skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliChildConstruction</defName>
+	<title>Engineering School</title>
+	<titleShort>EngineeringSchool</titleShort>
+	<baseDescription>[PAWN_nameDef] attended an Illuminate Engineering school.  Here [PAWN_pronoun] learned how to build, maintain and repair everything that keeps the Illuminate going.</baseDescription>
+	
+	<slot>Childhood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Mining</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Plants</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>-2</amount>
+		</li>
+	</skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliChildMining</defName>
+	<title>Geology School</title>
+	<titleShort>GeologySchool</titleShort>
+	<baseDescription>[PAWN_nameDef] attended an Illuminate school of Geology.  Here [PAWN_pronoun] learned about various types of rocks and mineralls, and the processes by which they change over time.</baseDescription>
+	
+	<slot>Childhood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Melee</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Mining</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Plants</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>-2</amount>
+		</li>
+	</skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliChildCooking</defName>
+	<title>Chef Academy</title>
+	<titleShort>ChefAcademy</titleShort>
+	<baseDescription>[PAWN_nameDef] attended an Illuminate cooking academy.  Here [PAWN_pronoun] learned how to prepare delicious and exotic meals.</baseDescription>
+	
+	<slot>Childhood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Mining</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Plants</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliChildPlants</defName>
+	<title>Botany School</title>
+	<titleShort>BotanySchool</titleShort>
+	<baseDescription>[PAWN_nameDef] attended an Illuminate school focusing on Botany and agriculture.  Here [PAWN_pronoun] learned about the cultivation of land and plants to provide food, fiber, medicinal plants and other products to sustain and enhance life.</baseDescription>
+	
+	<slot>Childhood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Plants</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliChildAnimals</defName>
+	<title>Agriculture School</title>
+	<titleShort>AgricultureSchool</titleShort>
+	<baseDescription>[PAWN_nameDef] attended an Illuminate school focusing on Animal husbandry and agriculture.  Here [PAWN_pronoun] learned how to raise animals for meat, fibre, milk, eggs, or other products. This included day-to-day care, selective breeding and the raising of livestock.</baseDescription>
+	
+	<slot>Childhood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Melee</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliChildCrafting</defName>
+	<title>Trade Institute</title>
+	<titleShort>TradeInstitute</titleShort>
+	<baseDescription>[PAWN_nameDef] attended an Illuminate Institute teaching trade skills.  Here [PAWN_pronoun] was taught how to work raw stone, metal and cloth, and build useful items with them.</baseDescription>
+	
+	<slot>Childhood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Plants</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>-2</amount>
+		</li>
+	</skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliChildArtistic</defName>
+	<title>Art College</title>
+	<titleShort>ArtCollege</titleShort>
+	<baseDescription>[PAWN_nameDef] showed artistict potential early in [PAWN_possessive] development.  As such there attended an Illuminate Art College where [PAWN_pronoun] could focus and develop [PAWN_possessive] passion in the arts.</baseDescription>
+	
+	<slot>Childhood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>-2</amount>
+		</li>
+	</skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliChildMedicine</defName>
+	<title>Medical College</title>
+	<titleShort>MedicalCollege</titleShort>
+	<baseDescription>[PAWN_nameDef] attended an Illuminate College of Medical Sciences.  Here [PAWN_pronoun] studdied on how to treat all manner of diseases, induries and sicknesses.</baseDescription>
+	
+	<slot>Childhood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Construction</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliChildSocial</defName>
+	<title>Sociology School</title>
+	<titleShort>SociologySchool</titleShort>
+	<baseDescription>[PAWN_nameDef] attended an Illuminate school of Sociology.  Here [PAWN_pronoun] studdied  society, patterns of social relationships, social interaction, and culture of everyday life.</baseDescription>
+	
+	<slot>Childhood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Animals</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>-2</amount>
+		</li>
+	</skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliChildIntellectual</defName>
+	<title>Gifted School</title>
+	<titleShort>GiftedSchool</titleShort>
+	<baseDescription>[PAWN_nameDef] showed very early signs that [PAWN_pronoun] was gifted.  When [PAWN_pronoun] surpassed [PAWN_possessive] peers in academic performance, [PAWN_pronoun] was transfered to a school for gifted hatchlings.</baseDescription>
+	
+	<slot>Childhood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Melee</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Construction</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>-2</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>4</amount>
+		</li>
+	</skillGains>
+</AlienRace.BackstoryDef>
+
+<!-- ===== Adult Stories ===== -->
+
+<!-- = Shooting = -->
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultShootingDropout</defName>
+	<title>Officer Academy Dropout</title>
+	<titleShort>OfficerAcademyDropout</titleShort>
+	<baseDescription>No matter how hard [PAWN_nameDef] tried, [PAWN_pronoun] was simply unable to keep up with the requirements placed upon [PAWN_possessive] shoulders.  Eventually [PAWN_pronoun] dropped out of the Officer Academy without finishing [PAWN_possessive] courses or graduating.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Construction</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildShooting</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultShootingGraduate</defName>
+	<title>Officer Academy Graduate</title>
+	<titleShort>OfficerAcademyGraduate</titleShort>
+	<baseDescription>[PAWN_nameDef] passed all [PAWN_possessive] tests and got a passing grade, graduating with the rest of [PAWN_possessive] class.  After this [PAWN_pronoun] faithfully served the Illuminate Military.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>3</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildShooting</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultShootingValedictorian</defName>
+	<title>Officer Academy Valedictorian</title>
+	<titleShort>OfficerAcademyValedictorian</titleShort>
+	<baseDescription>[PAWN_nameDef] proudly stood at the front of [PAWN_possessive] class, being the highest achiever in [PAWN_possessive] graduating class.  It was an easy choice for [PAWN_objective] to accept the Officer commission to serve in the Illuminate High Command.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+
+	<forcedTraits>
+		<li>
+			<defName>ShootingAccuracy</defName>
+			<degree>1</degree>
+			<chance>40</chance>
+		</li>
+	</forcedTraits>
+		
+	<linkedBackstory>AvaliChildShooting</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<!-- = Melee = -->
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultMeleeDropout</defName>
+	<title>Soldier Academy Dropout</title>
+	<titleShort>SoldierAcademyDropout</titleShort>
+	<baseDescription>[PAWN_nameDef] just wasn't cut out for a soldiers life.  [PAWN_pronoun] didn't even pass basic training before [PAWN_pronoun] dropped out.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildMelee</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultMeleeGraduate</defName>
+	<title>Soldier Academy Graduate</title>
+	<titleShort>SoldierAcademyGraduate</titleShort>
+	<baseDescription>[PAWN_nameDef] worked hard, trained harder and pass all [PAWN_possessive] milestones to become a fully enlisted soldier in the Immuminate army.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>3</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildMelee</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultMeleeValedictorian</defName>
+	<title>Soldier Academy Valedictorian</title>
+	<titleShort>SoldierAcademyValedictorian</titleShort>
+	<baseDescription>[PAWN_nameDef] stood head and shoulders above the other recruits of [PAWN_possessive] class.  [PAWN_pronoun] had received [PAWN_possessive] first field promotion even before [PAWN_pronoun] graduated.  [PAWN_pronoun] entered active service with the rank of Master chief petty officer.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+
+	<forcedTraits>
+		<li>
+			<defName>Tough</defName>
+			<chance>40</chance>
+		</li>
+	</forcedTraits>
+	
+	<linkedBackstory>AvaliChildMelee</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<!-- = Construction = -->
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultConstructionDropout</defName>
+	<title>Construction School Dropout</title>
+	<titleShort>ConstructionSchoolDropout</titleShort>
+	<baseDescription>No matter how hard [PAWN_nameDef] tried, [PAWN_pronoun] was simply unable to keep up with the requirements placed upon [PAWN_possessive] shoulders.  Eventually [PAWN_pronoun] dropped out of the Officer Academy without finishing [PAWN_possessive] courses or graduating.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Plants</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildConstruction</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultConstructionGraduate</defName>
+	<title>Construction School Graduate</title>
+	<titleShort>ConstructionSchoolGraduate</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Construction Skill - Graduate)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>3</amount>
+		</li>
+		<li>
+			<defName>Plants</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildConstruction</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultConstructionValedictorian</defName>
+	<title>Construction School Valedictorian</title>
+	<titleShort>ConstructionSchoolValedictorian</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Construction Skill - Valedictorian)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Plants</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+
+	<forcedTraits>
+		<li>
+			<defName>Industriousness</defName>
+			<degree>1</degree>
+			<chance>20</chance>
+		</li>
+		<li>
+			<defName>Industriousness</defName>
+			<degree>2</degree>
+			<chance>20</chance>
+		</li>
+	</forcedTraits>
+	
+	<linkedBackstory>AvaliChildConstruction</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<!-- = Mining = -->
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultMiningDropout</defName>
+	<title>Mining School Dropout</title>
+	<titleShort>MiningSchoolDropout</titleShort>
+	<baseDescription>No matter how hard [PAWN_nameDef] tried, [PAWN_pronoun] was simply unable to keep up with the requirements placed upon [PAWN_possessive] shoulders.  Eventually [PAWN_pronoun] dropped out of the Officer Academy without finishing [PAWN_possessive] courses or graduating.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Mining</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>-1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildMining</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultMiningGraduate</defName>
+	<title>Mining School Graduate</title>
+	<titleShort>MiningSchoolGraduate</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Mining Skill - Graduate)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Mining</defName>
+			<amount>3</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildMining</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultMiningValedictorian</defName>
+	<title>Mining School Valedictorian</title>
+	<titleShort>MiningSchoolValedictorian</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Mining Skill - Valedictorian)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Mining</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+
+	<forcedTraits>
+		<li>
+			<defName>Undergrounder</defName>
+			<chance>40</chance>
+		</li>
+	</forcedTraits>
+	
+	<linkedBackstory>AvaliChildMining</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<!-- = Cooking = -->
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultCookingDropout</defName>
+	<title>Cooking School Dropout</title>
+	<titleShort>CookingSchoolDropout</titleShort>
+	<baseDescription>No matter how hard [PAWN_nameDef] tried, [PAWN_pronoun] was simply unable to keep up with the requirements placed upon [PAWN_possessive] shoulders.  Eventually [PAWN_pronoun] dropped out of the Officer Academy without finishing [PAWN_possessive] courses or graduating.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Cooking'</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildCooking</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultCookingGraduate</defName>
+	<title>Cooking School Graduate</title>
+	<titleShort>CookingSchoolGraduate</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Cooking Skill - Graduate)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Cooking'</defName>
+			<amount>3</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildCooking</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultCookingValedictorian</defName>
+	<title>Cooking School Valedictorian</title>
+	<titleShort>CookingSchoolValedictorian</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Cooking Skill - Valedictorian)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Cooking'</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+
+	<forcedTraits>
+		<li>
+			<defName>NaturalMood</defName>
+			<degree>1</degree>
+			<chance>20</chance>
+		</li>
+		<li>
+			<defName>NaturalMood</defName>
+			<degree>2</degree>
+			<chance>20</chance>
+		</li>
+	</forcedTraits>
+	
+	<linkedBackstory>AvaliChildCooking</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<!-- = Plants = -->
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultPlantsDropout</defName>
+	<title>Plants School Dropout</title>
+	<titleShort>PlantsSchoolDropout</titleShort>
+	<baseDescription>No matter how hard [PAWN_nameDef] tried, [PAWN_pronoun] was simply unable to keep up with the requirements placed upon [PAWN_possessive] shoulders.  Eventually [PAWN_pronoun] dropped out of the Officer Academy without finishing [PAWN_possessive] courses or graduating.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Mining</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Plants</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildPlants</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultPlantsGraduate</defName>
+	<title>Plants School Graduate</title>
+	<titleShort>PlantsSchoolGraduate</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Plants Skill - Graduate)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Cooking</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Plants</defName>
+			<amount>3</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildPlants</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultPlantsValedictorian</defName>
+	<title>Plants School Valedictorian</title>
+	<titleShort>PlantsSchoolValedictorian</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Plants Skill - Valedictorian)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Cooking</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Plants</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+
+	<forcedTraits>
+		<li>
+			<defName>Kind</defName>
+			<chance>40</chance>
+		</li>
+	</forcedTraits>
+	
+	<linkedBackstory>AvaliChildPlants</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<!-- = Animals = -->
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultAnimalsDropout</defName>
+	<title>Animals School Dropout</title>
+	<titleShort>AnimalsSchoolDropout</titleShort>
+	<baseDescription>No matter how hard [PAWN_nameDef] tried, [PAWN_pronoun] was simply unable to keep up with the requirements placed upon [PAWN_possessive] shoulders.  Eventually [PAWN_pronoun] dropped out of the Officer Academy without finishing [PAWN_possessive] courses or graduating.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Construction</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildAnimals</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultAnimalsGraduate</defName>
+	<title>Animals School Graduate</title>
+	<titleShort>AnimalsSchoolGraduate</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Animals Skill - Graduate)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>3</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildAnimals</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultAnimalsValedictorian</defName>
+	<title>Animals School Valedictorian</title>
+	<titleShort>AnimalsSchoolValedictorian</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Animals Skill - Valedictorian)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>4</amount>
+		</li>
+	</skillGains>
+
+	<forcedTraits>
+		<li>
+			<defName>SpeedOffset</defName>
+			<degree>1</degree>
+			<chance>20</chance>
+		</li>
+		<li>
+			<defName>SpeedOffset</defName>
+			<degree>2</degree>
+			<chance>20</chance>
+		</li>
+	</forcedTraits>
+	
+	<linkedBackstory>AvaliChildAnimals</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<!-- = Crafting = -->
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultCraftingDropout</defName>
+	<title>Crafting School Dropout</title>
+	<titleShort>CraftingSchoolDropout</titleShort>
+	<baseDescription>No matter how hard [PAWN_nameDef] tried, [PAWN_pronoun] was simply unable to keep up with the requirements placed upon [PAWN_possessive] shoulders.  Eventually [PAWN_pronoun] dropped out of the Officer Academy without finishing [PAWN_possessive] courses or graduating.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Mining</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildCrafting</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultCraftingGraduate</defName>
+	<title>Crafting School Graduate</title>
+	<titleShort>CraftingSchoolGraduate</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Crafting Skill - Graduate)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Mining</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>3</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildCrafting</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultCraftingValedictorian</defName>
+	<title>Crafting School Valedictorian</title>
+	<titleShort>CraftingSchoolValedictorian</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Crafting Skill - Valedictorian)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Mining</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+
+	<forcedTraits>
+		<li>
+			<defName>Nerves</defName>
+			<degree>1</degree>
+			<chance>20</chance>
+		</li>
+		<li>
+			<defName>Nerves</defName>
+			<degree>2</degree>
+			<chance>20</chance>
+		</li>
+	</forcedTraits>
+	
+	<linkedBackstory>AvaliChildCrafting</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<!-- = Artistic = -->
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultArtisticDropout</defName>
+	<title>Artistic School Dropout</title>
+	<titleShort>ArtisticSchoolDropout</titleShort>
+	<baseDescription>No matter how hard [PAWN_nameDef] tried, [PAWN_pronoun] was simply unable to keep up with the requirements placed upon [PAWN_possessive] shoulders.  Eventually [PAWN_pronoun] dropped out of the Officer Academy without finishing [PAWN_possessive] courses or graduating.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Mining</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>-1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildArtistic</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultArtisticGraduate</defName>
+	<title>Artistic School Graduate</title>
+	<titleShort>ArtisticSchoolGraduate</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Artistic Skill - Graduate)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Mining</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>3</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildArtistic</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultArtisticValedictorian</defName>
+	<title>Artistic School Valedictorian</title>
+	<titleShort>ArtisticSchoolValedictorian</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Artistic Skill - Valedictorian)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Mining</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>4</amount>
+		</li>
+	</skillGains>
+
+	<forcedTraits>
+		<li>
+			<defName>DrugDesire</defName>
+			<degree>-1</degree>
+			<chance>40</chance>
+		</li>
+	</forcedTraits>
+	
+	<linkedBackstory>AvaliChildArtistic</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<!-- = Medicine = -->
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultMedicineDropout</defName>
+	<title>Medicine School Dropout</title>
+	<titleShort>MedicineSchoolDropout</titleShort>
+	<baseDescription>No matter how hard [PAWN_nameDef] tried, [PAWN_pronoun] was simply unable to keep up with the requirements placed upon [PAWN_possessive] shoulders.  Eventually [PAWN_pronoun] dropped out of the Officer Academy without finishing [PAWN_possessive] courses or graduating./baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Melee</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Plants</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildMedicine</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultMedicineGraduate</defName>
+	<title>Medicine School Graduate</title>
+	<titleShort>MedicineSchoolGraduate</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Medicine Skill - Graduate)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Melee</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Plants</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>3</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildMedicine</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultMedicineValedictorian</defName>
+	<title>Medicine School Valedictorian</title>
+	<titleShort>MedicineSchoolValedictorian</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Medicine Skill - Valedictorian)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Melee</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Plants</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>4</amount>
+		</li>
+	</skillGains>
+
+	<forcedTraits>
+		<li>
+			<defName>Immunity</defName>
+			<degree>1</degree>
+			<chance>40</chance>
+		</li>
+	</forcedTraits>
+	
+	<linkedBackstory>AvaliChildMedicine</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<!-- = Social = -->
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultSocialDropout</defName>
+	<title>Social School Dropout</title>
+	<titleShort>SocialSchoolDropout</titleShort>
+	<baseDescription>No matter how hard [PAWN_nameDef] tried, [PAWN_pronoun] was simply unable to keep up with the requirements placed upon [PAWN_possessive] shoulders.  Eventually [PAWN_pronoun] dropped out of the Officer Academy without finishing [PAWN_possessive] courses or graduating.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Melee</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Construction</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>-1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildSocial</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultSocialGraduate</defName>
+	<title>Social School Graduate</title>
+	<titleShort>SocialSchoolGraduate</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Social Skill - Graduate)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>3</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>1</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildSocial</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultSocialValedictorian</defName>
+	<title>Social School Valedictorian</title>
+	<titleShort>SocialSchoolValedictorian</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Social Skill - Valedictorian)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Construction</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>4</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+
+	<forcedTraits>
+		<li>
+			<defName>Beauty</defName>
+			<degree>1</degree>
+			<chance>20</chance>
+		</li>
+		<li>
+			<defName>Beauty</defName>
+			<degree>2</degree>
+			<chance>20</chance>
+		</li>
+	</forcedTraits>
+	
+	<linkedBackstory>AvaliChildSocial</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<!-- = Intellectual = -->
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultIntellectualDropout</defName>
+	<title>Intellectual School Dropout</title>
+	<titleShort>IntellectualSchoolDropout</titleShort>
+	<baseDescription>No matter how hard [PAWN_nameDef] tried, [PAWN_pronoun] was simply unable to keep up with the requirements placed upon [PAWN_possessive] shoulders.  Eventually [PAWN_pronoun] dropped out of the Officer Academy without finishing [PAWN_possessive] courses or graduating.</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Mining</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>-1</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>2</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildIntellectual</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultIntellectualGraduate</defName>
+	<title>Intellectual School Graduate</title>
+	<titleShort>IntellectualSchoolGraduate</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Intellectual Skill - Graduate)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Mining</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>1</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>3</amount>
+		</li>
+	</skillGains>
+
+	<linkedBackstory>AvaliChildIntellectual</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>AvaliAdultIntellectualValedictorian</defName>
+	<title>Intellectual School Valedictorian</title>
+	<titleShort>IntellectualSchoolValedictorian</titleShort>
+	<baseDescription>( Adult Backstory focusing on the Intellectual Skill - Valedictorian)</baseDescription>
+	
+	<slot>Adulthood</slot>
+	
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	
+	<spawnCategories>
+		<li>AvaliBackstory</li>
+	</spawnCategories>
+	
+	<skillGains>
+		<li>
+			<defName>Mining</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>2</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>4</amount>
+		</li>
+	</skillGains>
+
+	<forcedTraits>
+		<li>
+			<defName>FastLearner</defName>
+			<chance>20</chance>
+		</li>
+		<li>
+			<defName>GreatMemory</defName>
+			<chance>20</chance>
+		</li>
+	</forcedTraits>
+	
+	<linkedBackstory>AvaliChildIntellectual</linkedBackstory>
+</AlienRace.BackstoryDef>
+
+</Defs>

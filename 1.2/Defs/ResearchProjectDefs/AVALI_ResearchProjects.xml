@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>AvaliWorkbenches</defName>
+    <label>Avali Workbenches</label>
+    <description>Allows the creation of the Avali workbenches and several basic recipies preinstalled on them.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Machining</li>
+    </prerequisites>
+    <tab>AVALI</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AvaliCybernetics</defName>
+    <label>Avali Cybernetics</label>
+    <description>Allows the creation of Avali cybernetic prosthetics.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AvaliWorkbenches</li>
+    </prerequisites>
+    <tab>AVALI</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AvaliBionics</defName>
+    <label>Avali Bionics</label>
+    <description>Allows the creation of Avali bionic prosthetics.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AvaliCybernetics</li>
+    </prerequisites>
+    <tab>AVALI</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AvaliClothing</defName>
+    <label>Avali Clothing</label>
+    <description>Allows the creation of standard Avali clothing.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AvaliWorkbenches</li>
+    </prerequisites>
+    <tab>AVALI</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AvaliClothingAdvanced</defName>
+    <label>Advanced Avali Clothing</label>
+    <description>Allows the creation of advanced Avali clothing.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AvaliClothing</li>
+    </prerequisites>
+    <tab>AVALI</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AvaliTurretBasic</defName>
+    <label>Basic Avali Turret</label>
+    <description>Allows the creation of the basic Avali turret.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AvaliWorkbenches</li>
+    </prerequisites>
+    <tab>AVALI</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AvaliTurretRapid</defName>
+    <label>Rapid Avali Turret</label>
+    <description>Allows the creation of the Avali rapid fire turret.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AvaliTurretBasic</li>
+    </prerequisites>
+    <tab>AVALI</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AvaliTurretMissile</defName>
+    <label>Missile Avali Turret</label>
+    <description>Allows the creation of the Avali long range missile turret.</description>
+    <baseCost>8000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AvaliTurretRapid</li>
+    </prerequisites>
+    <tab>AVALI</tab>
+    <researchViewX>3</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AvaliWeaponsCombat</defName>
+    <label>Combat Avali Weapons</label>
+    <description>Allows the creation of Avali combat weapons.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AvaliWorkbenches</li>
+    </prerequisites>
+    <tab>AVALI</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>AvaliWeaponsHeavy</defName>
+    <label>Heavy Avali Weapons</label>
+    <description>Allows the creation of heavy Avali weapons.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AvaliWeaponsCombat</li>
+    </prerequisites>
+    <tab>AVALI</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+</Defs>

@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=============== Avali Railgun Turret ===============-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>AvaliRailgunTurret</defName>
+    <label>Avali Railgun Turret</label>
+    <description>A heavy Railgun, mounted on an AI controlled turret.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <researchPrerequisites>
+      <li>AvaliTurretBasic</li>
+    </researchPrerequisites>
+    <graphicData>
+      <texPath>Things/Turrets/AvaliRailgunTurret</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>true</rotatable>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <WorkToBuild>25000</WorkToBuild>
+      <Mass>150</Mass>
+      <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.75</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>500</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,217,180,0)</glowColor>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.75</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <hasTooltip>true</hasTooltip>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>250</costStuffCount>
+    <costList>
+      <Steel>300</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>49.9</specialDisplayRadius>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_AvaliRailgunTurret</turretGunDef>
+      <turretBurstCooldownTime>2.5</turretBurstCooldownTime>
+      <turretTopGraphicPath>Things/Turrets/AvaliRailgunTurret_Gun</turretTopGraphicPath>
+      <turretTopDrawSize>3</turretTopDrawSize>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_AvaliRailgunTurret</defName>
+    <label>Avali Railgun Turret Bullet</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Bullet_Avali_Sniper</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>50</damageAmountBase>
+      <stoppingPower>5</stoppingPower>
+      <armorPenetrationBase>1.0</armorPenetrationBase>
+      <speed>400</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_AvaliRailgunTurret</defName>
+    <label>Avali Railgun Turret Gun</label>
+    <graphicData>
+      <texPath>Things/Turrets/AvaliRailgunTurret</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <menuHidden>true</menuHidden>
+    <description>A heavy Railgun, mounted on an AI controlled turret.</description>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <statBases>
+      <Mass>40</Mass>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.75</AccuracyLong>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags Inherit="false">
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_AvaliRailgunTurret</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <range>49.9</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>45</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!--=============== Rapid Rail Cannon ===============-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>AvaliRapidCannon</defName>
+    <label>Avali Rapid Cannon</label>
+    <description>A multi-barrelled, rapid fire cannon, mounted on an AI controlled turret.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <researchPrerequisites>
+      <li>AvaliTurretRapid</li>
+    </researchPrerequisites>
+    <graphicData>
+      <texPath>Things/Turrets/AvaliRapidCannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>true</rotatable>
+    <size>(3,3)</size>
+    <statBases>
+      <MaxHitPoints>2400</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <WorkToBuild>35000</WorkToBuild>
+      <Mass>300</Mass>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>4.5</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1000</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,217,180,0)</glowColor>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.9</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <hasTooltip>true</hasTooltip>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>500</costStuffCount>
+    <costList>
+      <Steel>200</Steel>
+      <ComponentIndustrial>20</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>39.9</specialDisplayRadius>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_AvaliRapidCannon</turretGunDef>
+      <turretBurstCooldownTime>0.15</turretBurstCooldownTime>
+      <turretTopGraphicPath>Things/Turrets/AvaliRapidCannon_Gun</turretTopGraphicPath>
+      <turretTopDrawSize>4</turretTopDrawSize>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_AvaliRapidCannon</defName>
+    <label>Avali Rapid Cannon Bullet</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Bullet_Avali</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.10</armorPenetrationBase>
+      <speed>125</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanGun">
+    <defName>Gun_AvaliRapidCannon</defName>
+    <label>Avali Rapid Cannon Gun</label>
+    <graphicData>
+      <texPath>Things/Turrets/AvaliRapidCannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <menuHidden>true</menuHidden>
+    <description>A multi-barrelled, rapid fire cannon, mounted on an AI controlled turret.</description>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <statBases>
+      <Mass>40</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.45</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+      <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags Inherit="false">
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Avali_Minigun</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <range>39.9</range>
+        <burstShotCount>12</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!--=============== Missile Launcher Turret ===============-->
+  <ThingDef Name="BuildingBase_AVL" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+  </ThingDef>
+  <ThingDef Name="BaseArtilleryBuilding_AVL" ParentName="BuildingBase_AVL" Abstract="True">
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicData>
+      <texPath>Things/Turrets/AvaliTurretMissile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5.5,5.5)</drawSize>
+    </graphicData>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>true</rotatable>
+    <size>(5,5)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.9</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>1000</costStuffCount>
+    <costList>
+      <Steel>200</Steel>
+      <ComponentIndustrial>50</ComponentIndustrial>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>10</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.25</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>2500</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,217,180,0)</glowColor>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>2400</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <WorkToBuild>35000</WorkToBuild>
+      <Mass>300</Mass>
+      <Beauty>-40</Beauty>
+    </statBases>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_AvaliMissilePod</turretGunDef>
+      <turretBurstWarmupTime>2.5</turretBurstWarmupTime>
+      <turretBurstCooldownTime>57.5</turretBurstCooldownTime>
+      <turretTopGraphicPath>Things/Turrets/AvaliTurretMissile_Gun</turretTopGraphicPath>
+      <turretTopDrawSize>3.5</turretTopDrawSize>
+      <buildingTags>
+        <li>Artillery</li>
+      </buildingTags>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>AvaliTurretMissile</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef Name="BaseArtilleryWeapon_AVL" Abstract="True">
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+    <label>artillery error</label>
+    <equipmentType>Primary</equipmentType>
+    <tickerType>Never</tickerType>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <tradeability>None</tradeability>
+    <weaponTags>
+      <li>Artillery</li>
+    </weaponTags>
+    <comps>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_AvaliTurretMissile</defName>
+    <label>Avali Missile Turret Missile</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Rocket_Avali</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <!-- Use default damage from explosion def -->
+      <explosionRadius>4.5</explosionRadius>
+      <armorPenetrationBase>0.25</armorPenetrationBase>
+      <flyOverhead>true</flyOverhead>
+      <speed>100</speed>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseArtilleryWeapon_AVL">
+    <defName>AvaliMissilePod</defName>
+    <label>Avali Missile Pod</label>
+    <description>A rapid launch missile pod.  Designed to fight back against sieges.</description>
+    <techLevel>Spacer</techLevel>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <tradeability>None</tradeability>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>57.5</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Artillery</li>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_AvaliTurretMissile</defaultProjectile>
+        <forcedMissRadius>2</forcedMissRadius>
+        <warmupTime>2.5</warmupTime>
+        <minRange>25</minRange>
+        <range>500</range>
+        <burstShotCount>16</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Missile_small</soundCast>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <requireLineOfSight>false</requireLineOfSight>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseArtilleryBuilding_AVL">
+    <defName>Gun_AvaliMissilePod</defName>
+    <label>Avali Missile Pod</label>
+    <statBases>
+      <MaxHitPoints>2400</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <WorkToBuild>35000</WorkToBuild>
+      <Mass>300</Mass>
+      <Beauty>-40</Beauty>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>10</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.25</chanceNeverExplodeFromDamage>
+      </li>
+    </comps>
+    <description>A rapid launch missile pod.  Designed to fight back against sieges.</description>
+    <size>(5,5)</size>
+    <costStuffCount>1000</costStuffCount>
+    <costList>
+      <Steel>200</Steel>
+      <ComponentIndustrial>50</ComponentIndustrial>
+    </costList>
+    <building>
+      <turretGunDef>AvaliMissilePod</turretGunDef>
+      <turretTopGraphicPath>Things/Turrets/AvaliTurretMissile_Gun</turretTopGraphicPath>
+    </building>
+  </ThingDef>
+</Defs>

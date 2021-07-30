@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>AvaliTail</defName>
+    <label>Avali tail</label>
+    <description>A severed Avali tail.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemNatural</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>5</Mass>
+    </statBases>
+  </ThingDef>
+  <!-- Leather -->
+  <ThingDef ParentName="LeatherBase">
+    <defName>Avali_Leather</defName>
+    <label>Avali Plumage</label>
+    <description>Soft Plumage from an Avali, surprisingly warm.</description>
+    <graphicData>
+      <color>(128, 128, 128)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <StuffPower_Armor_Sharp>0.35</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.35</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>35</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>15</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(128, 128, 128)</color>
+      <commonality>0.001</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <!-- Ears -->
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>ClothAvaliEar</defName>
+    <label>Cloth Avali Ear</label>
+    <description>A simple Cloth prosthetic, designed to replace a missing Ear.  It's better then nothing...</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>CyberneticAvaliEar</defName>
+    <label>Cybernetic Avali Ear</label>
+    <description>A standard Cybernetic prosthetic, designed to replace a missing Ear.  It's slightly better then your original...</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>BionicAvaliEar</defName>
+    <label>Bionic Avali Ear</label>
+    <description>An advanced Bionic prosthetic, designed to replace a missing Ear.  It's a major upgrade...</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemArchotech</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Spacer</li>
+    </techHediffsTags>
+  </ThingDef>
+  <!-- Tails -->
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>ClothAvaliTail</defName>
+    <label>Cloth Avali Tail</label>
+    <description>A simple Cloth prosthetic, designed to replace a missing Tail.  It's better then nothing...</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>CyberneticAvaliTail</defName>
+    <label>Cybernetic Avali Tail</label>
+    <description>A standard Cybernetic prosthetic, designed to replace a missing Tail.  It's slightly better then your original...</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>BionicAvaliTail</defName>
+    <label>Bionic Avali Tail</label>
+    <description>An advanced Bionic prosthetic, designed to replace a missing Tail.  It's a major upgrade...</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemArchotech</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Spacer</li>
+    </techHediffsTags>
+  </ThingDef>
+  <!-- Legs -->
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>WoodenAvaliLeg</defName>
+    <label>Wooden Avali Leg</label>
+    <description>A simple Wooden prosthetic, designed to replace a missing Leg.  It's better then nothing...</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>CyberneticAvaliLeg</defName>
+    <label>Cybernetic Avali Leg</label>
+    <description>A standard Cybernetic prosthetic, designed to replace a missing Leg.  It's slightly better then your original...</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>BionicAvaliLeg</defName>
+    <label>Bionic Avali Leg</label>
+    <description>An advanced Bionic prosthetic, designed to replace a missing Leg.  It's a major upgrade...</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemArchotech</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Spacer</li>
+    </techHediffsTags>
+  </ThingDef>
+  <!-- Arms -->
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>MetalAvaliArm</defName>
+    <label>Metal Avali Arm</label>
+    <description>A simple Metal prosthetic, designed to replace a missing Arm.  It's better then nothing...</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>CyberneticAvaliArm</defName>
+    <label>Cybernetic Avali Arm</label>
+    <description>A standard Cybernetic prosthetic, designed to replace a missing Arm.  It's slightly better then your original...</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>BionicAvaliArm</defName>
+    <label>Bionic Avali Arm</label>
+    <description>An advanced Bionic prosthetic, designed to replace a missing Arm.  It's a major upgrade...</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemArchotech</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Spacer</li>
+    </techHediffsTags>
+  </ThingDef>
+</Defs>

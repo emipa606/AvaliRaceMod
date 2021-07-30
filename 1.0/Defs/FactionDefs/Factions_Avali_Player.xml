@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef>
+    <defName>AvaliPlayerColony</defName>
+    <label>Avali Illuminate</label>
+    <description>Your own Avali Illuminate Colony.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Avali</basicMemberKind>
+    <pawnSingular>colonist</pawnSingular>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategories>
+      <li>AvaliBackstory</li>
+    </backstoryCategories>
+    <expandingIconTexture>World/AvaliBaseIcon</expandingIconTexture>
+    <homeIconPath>World/AvaliBaseIcon</homeIconPath>
+    <pawnNameMaker>NamerPersonAvali</pawnNameMaker>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>AvaliHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  <!--  
+<FactionDef>
+	<defName>AvaliPlayerColonyTribal</defName>
+	<label>Avali Rogue Tribe</label>
+	<description>Avali Rogue Tribe start. (No research done, but high tech level)</description>
+	<isPlayer>true</isPlayer>
+	<basicMemberKind>Avali</basicMemberKind>
+	<pawnsPlural>colonists</pawnsPlural>
+	<pawnNameMaker>NamerPersonAvali</pawnNameMaker>
+	<settlementNameMaker>NamerFactionBasePlayerColony</settlementNameMaker>
+	<playerInitialSettlementNameMaker>NamerFactionTribal</playerInitialSettlementNameMaker>
+	<factionNameMaker>NamerFactionBaseTribal</factionNameMaker>
+	<techLevel>Ultra</techLevel>
+	<backstoryCategories>
+		<li>AvaliBackstory</li>
+	</backstoryCategories>
+	<homeIconPath>World/AvaliBaseIcon</homeIconPath>
+	<expandingIconTexture>World/AvaliBaseIcon</expandingIconTexture>
+	<startingResearchTags>
+		<li>TribalStart</li>
+	</startingResearchTags>
+	<hairTags>
+		<li>AvaliHair</li>
+	</hairTags>
+	<apparelStuffFilter>
+		<thingDefs>
+			<li>Synthread</li>
+		</thingDefs>
+	</apparelStuffFilter>
+	<colorSpectrum>
+		<li>(0, 0.437, 0.847)</li>
+	</colorSpectrum>
+</FactionDef>
+-->
+</Defs>

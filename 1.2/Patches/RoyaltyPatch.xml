@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <!-- <success>Always</success> -->
+      <operations>
+        <!-- Avali Fancy Clothing -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName = "Apparel_Avali_FancyClothing"]/thingCategories</xpath>
+          <value>
+            <li>ApparelNoble</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName = "Apparel_Avali_FancyClothing"]/equippedStatOffsets</xpath>
+          <value>
+            <PsychicSensitivity>0.20</PsychicSensitivity>
+            <PsychicEntropyRecoveryRate>2.5</PsychicEntropyRecoveryRate>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName = "Apparel_Avali_FancyClothing"]/apparel/tags</xpath>
+          <value>
+            <li>Royal</li>
+            <li>RoyalTier1</li>
+            <li>RoyalTier2</li>
+            <li>RoyalTier3</li>
+            <li>RoyalTier4</li>
+            <li>RoyalTier5</li>
+            <li>RoyalTier6</li>
+            <li>RoyalTier7</li>
+            <li>Psychic</li>
+          </value>
+        </li>
+        <!-- Avali Light Armour -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName = "Apparel_Avali_LightArmour"]/apparel/tags</xpath>
+          <value>
+            <li>RoyalCombatGear</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

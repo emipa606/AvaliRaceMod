@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>Avali_Male_Feathers</defName>
+    <label>Male Feathers</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Avali/Hair/Male_Feathers</texPath>
+    <hairTags>
+      <li>Avali</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>Avali_Female_Feathers</defName>
+    <label>Female Feathers</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Avali/Hair/Female_Feathers</texPath>
+    <hairTags>
+      <li>Avali</li>
+    </hairTags>
+  </HairDef>
+</Defs>

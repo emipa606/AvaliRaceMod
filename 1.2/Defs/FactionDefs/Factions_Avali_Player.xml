@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef Abstract="True" Name="AvaliFactionBase">
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  <FactionDef Parent="AvaliFactionBase">
+    <defName>AvaliPlayerColony</defName>
+    <label>Avali Illuminate</label>
+    <description>Your own Avali Illuminate Colony.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Avali</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategories>
+      <li>AvaliBackstory</li>
+    </backstoryCategories>
+    <factionIconPath>World/AvaliBaseIcon</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <pawnNameMaker>NamerPersonAvali</pawnNameMaker>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>AvaliHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+</Defs>

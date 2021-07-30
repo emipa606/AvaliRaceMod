@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerPersonAvali</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[AvaliFirstP][AvaliFirstS] [AvaliLastP][AvaliLastS]</li>
+        <li>name-&gt;[AvaliFirstP][AvaliFirstS] '[NickName]' [AvaliLastP][AvaliLastS]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>AvaliFirstP</keyword>
+          <path>Avali_Names/AvaliFirstP</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>AvaliFirstS</keyword>
+          <path>Avali_Names/AvaliFirstS</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>AvaliLastP</keyword>
+          <path>Avali_Names/AvaliLastP</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>AvaliLastS</keyword>
+          <path>Avali_Names/AvaliLastS</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NickName</keyword>
+          <path>Avali_Names/NickName</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>

@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <RecipeDef Name="AvaliSurgery" ParentName="SurgeryFlesh" Abstract="True">
+    <surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+    <recipeUsers>
+      <li>Alien_Avali</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- Ears -->
+  <RecipeDef ParentName="AvaliSurgery">
+    <defName>InstallClothAvaliEar</defName>
+    <label>install Cloth Avali Ear</label>
+    <description>Replace missing or damaged Ear with a simple Cloth version.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing Ear.</jobString>
+    <workAmount>750</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ClothAvaliEar</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>ClothAvaliEar</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>AvaliEar</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ClothAvaliEar</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="AvaliSurgery">
+    <defName>InstallCyberneticAvaliEar</defName>
+    <label>install Cybernetic Avali Ear</label>
+    <description>Replace missing or damaged Ear with a Cybernetic version.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing Ear.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CyberneticAvaliEar</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CyberneticAvaliEar</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>AvaliEar</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CyberneticAvaliEar</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="AvaliSurgery">
+    <defName>InstallBionicAvaliEar</defName>
+    <label>install Bionic Avali Ear</label>
+    <description>Replace missing or damaged Ear with an advanced Bionic version.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing Ear.</jobString>
+    <workAmount>1250</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BionicAvaliEar</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>BionicAvaliEar</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>AvaliEar</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BionicAvaliEar</addsHediff>
+  </RecipeDef>
+  <!-- Tail -->
+  <RecipeDef ParentName="AvaliSurgery">
+    <defName>InstallClothAvaliTail</defName>
+    <label>install Cloth Avali Tail</label>
+    <description>Replace missing or damaged Tail with a simple Cloth version.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing Tail.</jobString>
+    <workAmount>750</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ClothAvaliTail</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>ClothAvaliTail</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>AvaliTail</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ClothAvaliTail</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="AvaliSurgery">
+    <defName>InstallCyberneticAvaliTail</defName>
+    <label>install Cybernetic Avali Tail</label>
+    <description>Replace missing or damaged Tail with a Cybernetic version.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing Tail.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CyberneticAvaliTail</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CyberneticAvaliTail</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>AvaliTail</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CyberneticAvaliTail</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="AvaliSurgery">
+    <defName>InstallBionicAvaliTail</defName>
+    <label>install Bionic Avali Tail</label>
+    <description>Replace missing or damaged Tail with an advanced Bionic version.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing Tail.</jobString>
+    <workAmount>1250</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BionicAvaliTail</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>BionicAvaliTail</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>AvaliTail</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BionicAvaliTail</addsHediff>
+  </RecipeDef>
+  <!-- Ears -->
+  <RecipeDef ParentName="AvaliSurgery">
+    <defName>InstallWoodenAvaliLeg</defName>
+    <label>install Woden Avali Leg</label>
+    <description>Replace missing or damaged Leg with a simple Wooden version.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing Leg.</jobString>
+    <workAmount>750</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodenAvaliLeg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WoodenAvaliLeg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WoodenAvaliLeg</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="AvaliSurgery">
+    <defName>InstallCyberneticAvaliLeg</defName>
+    <label>install Cybernetic Avali Leg</label>
+    <description>Replace missing or damaged Leg with a Cybernetic version.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing Leg.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CyberneticAvaliLeg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CyberneticAvaliLeg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CyberneticAvaliLeg</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="AvaliSurgery">
+    <defName>InstallBionicAvaliLeg</defName>
+    <label>install Bionic Avali Leg</label>
+    <description>Replace missing or damaged Leg with an advanced Bionic version.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing Leg.</jobString>
+    <workAmount>1250</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BionicAvaliLeg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>BionicAvaliLeg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BionicAvaliLeg</addsHediff>
+  </RecipeDef>
+  <!-- Arms -->
+  <RecipeDef ParentName="AvaliSurgery">
+    <defName>InstallMetalAvaliArm</defName>
+    <label>install Metal Avali Arm</label>
+    <description>Replace missing or damaged Arm with a simple Metal version.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing Arm.</jobString>
+    <workAmount>750</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MetalAvaliArm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>MetalAvaliArm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Arm</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>MetalAvaliArm</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="AvaliSurgery">
+    <defName>InstallCyberneticAvaliArm</defName>
+    <label>install Cybernetic Avali Arm</label>
+    <description>Replace missing or damaged Arm with a Cybernetic version.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing Arm.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CyberneticAvaliArm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CyberneticAvaliArm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Arm</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CyberneticAvaliArm</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="AvaliSurgery">
+    <defName>InstallBionicAvaliArm</defName>
+    <label>install Bionic Avali Arm</label>
+    <description>Replace missing or damaged Arm with an advanced Bionic version.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing Arm.</jobString>
+    <workAmount>1250</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BionicAvaliArm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>BionicAvaliArm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Arm</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BionicAvaliArm</addsHediff>
+  </RecipeDef>
+</Defs>
