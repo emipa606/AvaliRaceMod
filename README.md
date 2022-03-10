@@ -1,6 +1,6 @@
 # AvaliRaceMod
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Jaffer Roshaks mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1034393407
@@ -8,10 +8,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1034393407
 - The factions should no longer be permanent enemy of the Empire
 - Upscaled some weapons, fixed turret UI-icons
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 The cutest predators this side of the universe rift.  The Avali, are nomadic pack hunters from an iceball world far outside the goldilocks zone of their local star. As such, they evolved with more of a focus on sound than eyesight allowing them to evolve to have 4 very sensitive ears.
 
@@ -26,7 +26,7 @@ Please feel free to leave any feedback for me and I'll see what I can do.
 
 ~ There is a known bug with hair colour and Prepare Carefully.  If you use Prepare Carefully, the hair will not match the body.
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -36,7 +36,6 @@ Please feel free to leave any feedback for me and I'll see what I can do.
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
-
 
 
 

@@ -1,5 +1,8 @@
 # Changelog for AvaliRaceMod
 
+1.3.1 - Fixed all file-extensions to lower-case for some Linux-users
+
+
 1.0.2.0 - Wounds and bionics should now be at the correct place
 
 
