@@ -158,10 +158,10 @@
         <whiteApparelList>
           <li>Apparel_ShieldBelt</li>
           <li>Apparel_SmokepopBelt</li>
-          <li>Apparel_HatLadies</li>
-          <li>Apparel_HatTop</li>
-          <li>Apparel_Coronet</li>
-          <li>Apparel_Crown</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_HatLadies</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_HatTop</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Coronet</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Crown</li>
         </whiteApparelList>
       </raceRestriction>
     </alienRace>
