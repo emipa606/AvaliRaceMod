@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartGroupDef>
+    <defName>AvaliUpperHead</defName>
+    <label>upper head</label>
+    <listOrder>200</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>AvaliEars</defName>
+    <label>ears</label>
+    <listOrder>201</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>AvaliTail</defName>
+    <label>tail</label>
+    <listOrder>49</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>TalonsLeftHand</defName>
+    <label>left hand talons</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>TalonsRightHand</defName>
+    <label>right hand talons</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>TalonsLeftFeet</defName>
+    <label>left feet talons</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>TalonsRightFeet</defName>
+    <label>right feet talons</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>AvaliLeftFeet</defName>
+    <label>left feet</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>AvaliRightFeet</defName>
+    <label>right feet</label>
+  </BodyPartGroupDef>
+  <BodyPartDef>
+    <defName>AvaliTail</defName>
+    <label>tail</label>
+    <hitPoints>25</hitPoints>
+    <frostbiteVulnerability>8</frostbiteVulnerability>
+    <spawnThingOnRemoved>AvaliTail</spawnThingOnRemoved>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>AvaliEar</defName>
+    <label>ear</label>
+    <hitPoints>15</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+</Defs>
