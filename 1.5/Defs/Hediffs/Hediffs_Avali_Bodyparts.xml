@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ClothAvaliEar</defName>
+    <label>Cloth Avali Ear</label>
+    <description>A simple Cloth prosthetic, designed to replace a missing Ear.  It's better then nothing.</description>
+    <spawnThingOnRemoved>ClothAvaliEar</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.80</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CyberneticAvaliEar</defName>
+    <label>Cybernetic Avali Ear</label>
+    <description>A standard Cybernetic prosthetic, designed to replace a missing Ear.  It's slightly better then your original.</description>
+    <spawnThingOnRemoved>CyberneticAvaliEar</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.20</partEfficiency>
+      <betterThanNatural>True</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BionicAvaliEar</defName>
+    <label>Bionic Avali Ear</label>
+    <description>An advanced Bionic prosthetic, designed to replace a missing Ear.  It's a major upgrade.</description>
+    <spawnThingOnRemoved>BionicAvaliEar</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.60</partEfficiency>
+      <betterThanNatural>True</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ClothAvaliTail</defName>
+    <label>Cloth Avali tail</label>
+    <description>A simple Cloth prosthetic, designed to replace a missing Tail.  It's better then nothing.</description>
+    <spawnThingOnRemoved>ClothAvaliTail</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.80</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CyberneticAvaliTail</defName>
+    <label>Cybernetic Avali tail</label>
+    <description>A standard Cybernetic prosthetic, designed to replace a missing Tail.  It's slightly better then your original.</description>
+    <spawnThingOnRemoved>CyberneticAvaliTail</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.20</partEfficiency>
+      <betterThanNatural>True</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BionicAvaliTail</defName>
+    <label>Bionic Avali tail</label>
+    <description>An advanced Bionic prosthetic, designed to replace a missing Tail.  It's a major upgrade.</description>
+    <spawnThingOnRemoved>BionicAvaliTail</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.60</partEfficiency>
+      <betterThanNatural>True</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>WoodenAvaliLeg</defName>
+    <label>Wooden Avali leg</label>
+    <description>A simple Wooden prosthetic, designed to replace a missing Leg.  It's better then nothing.</description>
+    <spawnThingOnRemoved>WoodenAvaliLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.80</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CyberneticAvaliLeg</defName>
+    <label>Cybernetic Avali leg</label>
+    <description>A standard Cybernetic prosthetic, designed to replace a missing Leg.  It's slightly better then your original.</description>
+    <spawnThingOnRemoved>CyberneticAvaliLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.20</partEfficiency>
+      <betterThanNatural>True</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BionicAvaliLeg</defName>
+    <label>Bionic Avali leg</label>
+    <description>An advanced Bionic prosthetic, designed to replace a missing Leg.  It's a major upgrade.</description>
+    <spawnThingOnRemoved>BionicAvaliLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.60</partEfficiency>
+      <betterThanNatural>True</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>MetalAvaliArm</defName>
+    <label>Metal Avali Arm</label>
+    <description>A simple Metal prosthetic, designed to replace a missing Arm.  It's better then nothing.</description>
+    <spawnThingOnRemoved>MetalAvaliArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.80</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CyberneticAvaliArm</defName>
+    <label>Cybernetic Avali Arm</label>
+    <description>A standard Cybernetic prosthetic, designed to replace a missing Arm.  It's slightly better then your original.</description>
+    <spawnThingOnRemoved>CyberneticAvaliArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.20</partEfficiency>
+      <betterThanNatural>True</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BionicAvaliArm</defName>
+    <label>Bionic Avali Arm</label>
+    <description>An advanced Bionic prosthetic, designed to replace a missing Arm.  It's a major upgrade.</description>
+    <spawnThingOnRemoved>BionicAvaliArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.60</partEfficiency>
+      <betterThanNatural>True</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+</Defs>

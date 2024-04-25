@@ -1,5 +1,8 @@
 # Changelog for AvaliRaceMod
 
+1.5.0 - Last update, added end-of-life message
+
+
 1.4.3 - Fixed the gene-restrictions being to harsh
 
 

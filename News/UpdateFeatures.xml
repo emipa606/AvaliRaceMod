@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="AvaliRaceMod_UpdateFeatureBase">
+		<modNameReadable>AvaliRaceMod</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2561529858</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="AvaliRaceMod_UpdateFeatureBase">
+		<defName>AvaliRaceMod_1_4_3</defName>
+		<assemblyVersion>1.4.3</assemblyVersion>
+		<content>Due to a bad interaction with the developer of the HAR framework combined with the increased work required I have decided to not further update this mod. It will stay up to support the previous versions of the game.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+

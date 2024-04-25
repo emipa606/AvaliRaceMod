@@ -7,8 +7,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1034393407
 
 - The factions should no longer be permanent enemy of the Empire
 - Upscaled some weapons, fixed turret UI-icons
+- Shadow has made a https://steamcommunity.com/sharedfiles/filedetails/?id=2993570787]Avali Race Patchbox mod that contains rebalancing and a new starting scenario among other things. 
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://i.imgur.com/KFjAmff.png)
 
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
@@ -32,10 +33,13 @@ Please feel free to leave any feedback for me and I'll see what I can do.
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib and command Ctrl+F12
+-  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2561529858]Last updated 2023-03-31
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2561529858]![Image](https://img.shields.io/github/v/release/emipa606/AvaliRaceMod?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
+
